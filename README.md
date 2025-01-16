@@ -14,28 +14,30 @@ Showcase of applied analytics work for prospective employers. Includes ML techni
 - [Usage](#usage)
 
 ## Project Overview
-A brief summary of the project and its objectives.
+These projects are Kaggle-based competitions with no prize payouts which are showcases of my first forays into data science. I have addressed many of the common issues that appear in ML problems like class imbalances, data cleaning/preperation, model selection and validation concepts. MLModel focuses on price prediction using an ensemble model of XGBoost & Regression tactics to predict car prices. SampleClassifier is a classification focused dataset that focuses on eligibility for a government program. 
 
 ## Data Sources
-Description of the data sources used in the projects.
+The data sources are found on kaggle link here: https://www.kaggle.com/datasets Most are for academic purposes which fully comply with licenses. 
 
 ## Licensing Issues
-Details about any licensing issues or considerations.
+Data sets are open-sourced and suitable for educational purposes.
 
 ## Exploratory Data Analysis (EDA)
-Overview of the exploratory data analysis performed.
+EDA for Car Analysis shows us relationships between the actual configurations of a car and performance which have some relationships with price. 
+![image](https://github.com/user-attachments/assets/59bc9d85-1c2b-419f-9485-da2f12426d9f)
+
 
 ## Data Cleaning and Model Preparation
-Steps taken for data cleaning and preparation for modeling.
+Any column that had over 10% missing values was excluded because imputation was impractical at that point. 
 
 ## Modeling Approaches and Tuning
-Description of the different modeling approaches used and how models were tuned.
+I used ensemble models for most of my modeling approaches because I felt that was the most appropriate for the problems discussed. 
 
 ## Results
-Summary of the key findings and results.
+I had some moderate results but I felt like my results could be improved. 
 
 ## Conclusion
-Final thoughts and potential future work.
+My approach was definitely not the best way to address these problems as there were most steps I could have taken like cross-validation, data preperation steps, and other misc. approaches I did not know at the time. I hope to document these projects as a guide for what my baseline performance was and improve upon design choices, ensure data quality and other changes. 
 
 ## Installation and Setup
 Instructions on how to install and set up the project.
