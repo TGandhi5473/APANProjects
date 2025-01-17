@@ -26,9 +26,26 @@ Data sets are open-sourced and suitable for educational purposes.
 EDA for Car Analysis shows us relationships between the actual configurations of a car and performance which have some relationships with price. 
 ![image](https://github.com/user-attachments/assets/59bc9d85-1c2b-419f-9485-da2f12426d9f)
 
-
+EDA for SampleClassifier shows many different cars where the mileage on a full charge are considered. Preliminary analysis suggested that Electric Range is highly correlated with CAFV Eligiblity Simple.
+        Electric Range  Base MSRP  Legislative District CAFV Eligibility Simple  
+92676              56          0                  40.0                Eligible  
+92677              21          0                  15.0            Not Eligible  
+92678              17          0                  21.0            Not Eligible  
+92679              23          0                   8.0            Not Eligible  
+92680              17          0                  21.0            Not Eligible  
+92681              21          0                  15.0            Not Eligible  
+92682              23          0                   8.0            Not Eligible  
+92683             100      32995                  28.0                Eligible  
+92684             100      32995                   6.0                Eligible  
+92685               6          0                   8.0            Not Eligible  
+92686               6          0                  31.0            Not Eligible  
+92687               6          0                   8.0            Not Eligible  
+92688               6          0                  31.0            Not Eligible  
+92689               6          0                  31.0            Not Eligible  
+92690               6          0                   8.0            Not Eligible  
+92691               6          0                   8.0            Not Eligible  
 ## Data Cleaning and Model Preparation
-Any column that had over 10% missing values was excluded because imputation was impractical at that point. 
+Any column that had over 10% missing values was excluded because imputation was impractical at that point. SimpleClassifier yielded no missing values. 
 
 ## Modeling Approaches and Tuning
 I used ensemble models for most of my modeling approaches because I felt that was the most appropriate for the problems discussed. 
