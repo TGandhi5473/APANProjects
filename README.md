@@ -24,12 +24,13 @@ Data sets are open-sourced and suitable for educational purposes.
 
 ## Exploratory Data Analysis (EDA)
 EDA for Car Analysis shows us relationships between the actual configurations of a car and performance which have some relationships with price. 
+
 ![image](https://github.com/user-attachments/assets/59bc9d85-1c2b-419f-9485-da2f12426d9f)
 
 EDA for SampleClassifier shows many different cars where the mileage on a full charge are considered. Preliminary analysis suggested that Electric Range is highly correlated with CAFV Eligiblity Simple.
 
         
-        Electric Range  Base MSRP  Legislative District CAFV Eligibility Simple  
+  EV_no.      Electric Range  Base MSRP  Legislative District CAFV Eligibility Simple  
 92676              56          0                  40.0                Eligible  
 92677              21          0                  15.0            Not Eligible  
 92678              17          0                  21.0            Not Eligible  
